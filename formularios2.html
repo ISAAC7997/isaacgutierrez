@@ -1,0 +1,120 @@
+
+<html>
+<head>
+<title>Formularios en HTML</title>
+</head>
+
+<body>
+
+
+<h4> Matricula  al campeonato de linafa</h4>
+
+
+ <figure>
+ <img src="linafa.jpg" alt="Tenis" width=300 height="200">
+ </figure>
+
+
+<form action="procesar.php" method="POST">
+
+
+
+<!-- Etiqueta de campo -->
+<label for="nombre">Nombre:</label>
+
+<!-- Campo de entrada -->
+<input type="text" id="nombre" name="nombre" required>
+<br><br>
+
+<!-- Etiqueta de campo -->
+<label for="edad">edad:</label>
+
+<!-- Campo de entrada -->
+<input type="text" id="edad" name="edad" required>
+<br><br>
+
+<!-- Etiqueta de campo -->
+<label for="camiseta">camiseta:</label>
+
+<!-- Campo de entrada -->
+<input type="text" id="camiseta" name="camiseta" required>
+<br><br>
+
+<!-- Área de texto -->
+<label for="direción">dirección:</label>
+<textarea id="dirección" name="dirección" rows="4" cols="30"></textarea>
+<br><br>
+
+
+
+
+
+
+
+<!-- Menú desplegable -->
+        <label for="opciones">Selecciona un sexo:</label>
+        <select id="opciones" name="sexo">
+            <option value="opcion1">masculino</option>
+            <option value="opcion2">femenino</option>
+            <option value="opcion3">no contesta</option>
+
+       </select>
+        <br><br>    
+            
+
+
+
+
+<!-- Menú desplegable -->
+        <label for="opciones">Selecciona una categoria:</label>
+        <select id="opciones" name="categorias">
+            <option value="opcion1">sub16</option>
+            <option value="opcion2">sub17</option>
+            <option value="opcion3">sub21</option>
+            <option value="opcion4">sub15</option>
+
+       </select>
+        <br><br>    
+
+
+
+
+<!-- Menú desplegable -->
+        <label for="opciones">Selecciona una provincia:</label>
+        <select id="opciones" name="provincias">
+            <option value="opcion1">Guanacaste</option>
+            <option value="opcion2">Cartago</option>
+            <option value="opcion3">Limón</option>
+            <option value="opcion4">Alajuela</option>
+            <option value="opcion5">Puntarenas</option>
+            <option value="opcion6">San josé</option>
+            <option value="opcion7">Heredia</option>
+
+       </select>
+        <br><br>    
+
+
+    <!-- Botón -->
+        <button type="submit">completo</button>
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
